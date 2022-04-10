@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="s.css">
+<body style="background: linear-gradient(to right,blue,cyan);">
+       <!--- <div id="switch">
+    <input type="radio" name="type" id="type1" checked>
+    <label for="type1">Employee</label>
+    <input type="radio" name="type" id="type2" >
+    <label for="type2">Hirer</label>
+</div> -->
+<div id="One">
+    <div class="switch">
+        <input type="radio" name="type" id="type1" checked>
+        <label for="type1">Employee</label>
+        <div id="Work">
+        <h2>Apply as a Employee</h2><br>        
+        <form id="login">
+            <div id="two">       
+            <input type="text" class="five" id="Uname" placeholder="First Name*" pattern="[A-Za-z]*" required>    
+            <br><br>
+            <input type="text" class="five" id="Lname" placeholder="Last Name" required>    
+            <br><br>
+            <input type="password" class="five" id="Password" placeholder="Password*" required>    
+            <br><br>
+            <input type="password" class="five" id="CPassword" placeholder="Confirm Password*" required>
+            <br><br>
+            <input type="radio" id="Male" name="Gender" value="Male" required>
+            <label for="Male">Male</label><br>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label></div>
+          <p id="three">
+               <input type="email" class="ban" id="email" placeholder="Your Email*" pattern="[^ @]*@[^ @]*" required>
+               <br><br>
+               <input type="tel" id="tel" placeholder="Your Phone*" pattern="[0-9]{10}" required>
+               <br><br>
+               <select name="Security Question" placeholder="Select" required>
+                   <option selected disabled hidden value="">Please select your Security Question
+                   <option value="Favourite School">Favourite School
+                   <option value="Favourite Memory">Favourite Memory
+                   <option value="BF">Best Friend   
+                   </select>
+                <br><br>
+                <input type="text" id="Ans" placeholder="Enter Your Answer *" required>
+                </p> 
+           <input type="submit" value="Register" id="btn">
+        </form>     
+    </div>    </div>
+    <div class="switch">
+    <input type="radio" name="type" id="type2" >
+    <label for="type2">Hirer</label>
+    <div class="Work">
+        <h2>Apply as a Hirer</h2><br>        
+        <form id="login">
+            <div class="twwo">       
+            <input type="text" class="five" id="Uname1" placeholder="First Name*" pattern="[A-Za-z]*" required>    
+            <br><br>
+            <input type="text" class="five" id="Lname1" placeholder="Last Name" required>    
+            <br><br>
+            <input type="email" class="ban" id="email" placeholder="Your Email*" pattern="[^ @]*@[^ @]*" required>
+            <br><br>
+            <input type="tel" id="tel" placeholder="Your Phone*" pattern="[0-9]{10}" required>
+            <br><br>
+           </div>
+           <p id="threee">
+            <input type="password" class="five2" id="Password" placeholder="Password*" required>    
+            <br><br>
+            <input type="password" class="five2" id="CPassword" placeholder="Confirm Password*" required>
+            <br><br>
+               <select name="Security Question" placeholder="Select" required>
+                   <option selected disabled hidden value="">Please select your Security Question
+                   <option value="Favourite School">Favourite School
+                   <option value="Favourite Memory">Favourite Memory
+                   <option value="BF">Best Friend   
+                   </select>
+                <br><br>
+                <input type="text" id="Ans" placeholder="Enter Your Answer *" required>
+                </p>
+           <input type="submit" value="Register" id="btn">
+           </form>
+           </div>
+           </div></div>
+</body>
+</html>

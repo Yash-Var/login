@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+  }
+  body {
+    background-color: rgba(185, 141, 141, 0.886);
+    color: rgba(245, 245, 245, 0.845);
+    font-family: "Courier New", Courier, monospace;
+    
+  }
+  
+  form {
+    padding: 25px;
+    margin: 25px;
+    font-size: 25px;
+  }
+  
+  h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-decoration: underline;
+    margin-top: 20px;
+    padding-left: 25px;
+    margin-left: 25px;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px blue;
+  }
+  /*for hovering the label elements*/
+  label :hover {
+    color: rgb(243, 243, 243);
+    border-bottom: 1px solid rgb(243, 243, 243);
+  }
+  
+  label {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 0.5s;
+  }
+  input{
+    font-size: 20px;
+    border-radius: 7px;
+  }
+  select{
+    font-size: 20px;
+    border-radius: 7px;
+  }
+  #email{
+      color: green;
+  }
+.five{
+    color: blueviolet;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+p{
+    margin-left: 100px;
+}
+

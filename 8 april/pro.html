@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body style="background: linear-gradient(to right,rgb(118, 23, 118),rgb(14, 151, 151));">
+    <div id="welcome">
+        <img src="Screenshot 2022-04-09 at 6.57.38 PM.png" width="80px" height="100px">
+        <h1>Welcome</h1>
+    <p id="welcome1">You are 30 seconds<br> away from earning your<br> own money</p><br><br><br>
+    <input type="button" value="Login" id="log">
+    </div>
+    <div class="main">
+    <div class="btn">
+        <nav class="naw">
+            <ul>
+                <div id="emp">
+                    <li  style="color: blue; border-radius: 20px;
+                    background-color: aliceblue;"><a href="pro.html">Employee</a></li>
+                </div>
+                <div id="hire">
+                    <li><a href="pro1.html">Hirer</a></li>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="whole">
+        <form class="login">
+               
+            <h2>Apply as a Employee</h2><br>  
+            <div class="two">  
+            <input type="text" class="five" id="Uname" placeholder="First Name*" pattern="[A-Za-z]*" required>    
+            <br><br>
+            <input type="text" class="five" id="Lname" placeholder="Last Name" required>    
+            <br><br>
+            <input type="password" class="five" id="Password" placeholder="Password*" required>    
+            <br><br>
+            <input type="password" class="five" id="CPassword" placeholder="Confirm Password*" required>
+            <br><br>
+            <input type="radio" id="Male" name="Gender" value="Male" required class="gen">
+            <label for="Male" class="gen">Male</label><br>
+            <input type="radio" id="Female" name="Gender" value="Female" class="gen" >
+            <label for="Female" class="gen">Female</label></div>
+    <p class="three">
+        <input type="email" class="ban" id="email" placeholder="Your Email*" pattern="[^ @]*@[^ @]*" required>
+        <br><br>
+        <input type="number" id="tel" placeholder="Your Phone*" pattern="[0-9]{10}" required>
+        <br><br>
+        <select name="Security Question" placeholder="Select" required>
+            <option selected disabled hidden value="">Please select your Security Question
+            <option value="Favourite School">Favourite School
+            <option value="Favourite Memory">Favourite Memory
+            <option value="BF">Best Friend   
+            </select>
+         <br><br>
+         <input type="text" id="Ans" placeholder="Enter Your Answer *" required>
+         </p> 
+    <input type="submit" value="Register" id="btn1">
+ </form>     
+</div></div>
+</body>
+</html>

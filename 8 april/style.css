@@ -1,0 +1,104 @@
+#welcome{
+  float: left;
+  text-align-last: center;
+  margin-top: 15%;
+  margin-left: 100px;
+  width: 5in;
+  color: white;
+}
+#log{
+  width: 2in;
+  border-radius: 20px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+.main{
+  float:right;
+  margin-top: 30px;
+  background-color: whitesmoke;
+  width: 65%; height: 800px;
+  border-top-left-radius: 20%;
+  border-end-start-radius: 20%;
+  position: relative;
+  z-index: -1; 
+}
+.btn{
+  border: 4px red;
+}
+h2{
+  text-align-last: left;
+  margin-left: 20%;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+form{
+  padding-left: 10%;
+  float: left;
+  
+}
+input{
+  font-size: 20px;
+  border-radius: 3px;
+  width: 400px;
+  padding: 5px;
+}
+.two{
+  float: left;
+}
+.three{
+  text-align-last: left;
+  margin-right: 300px;
+  margin-left: 500px;
+}
+.naw{
+  background-color: blue;
+  border-radius: 35px;
+  float: right;
+  width: 300px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.naw li{
+  float: left;
+  padding: 8px 30px;
+}
+
+.naw ul{
+  overflow: auto;
+  list-style: none;
+}
+.naw li a{
+  color: darkblue;
+}
+.naw input{
+  color: aliceblue;
+  border-radius: 20px;
+}
+#btn1{
+  float: right;
+  margin-top: 100px;
+  margin-right: 300px;
+  background-color: blue;
+  border-radius: 25px;
+  width: 150px;
+  color: aliceblue;
+}
+select{
+  font-size: 20px;
+  width: 413px;
+  background-color: white;
+  border-radius: 7px;
+  height: 37.5px;
+}
+.gen{
+  width: fit-content;
+  display: inline-block;
+}
+.two {
+  float: left;
+  margin-top: 15px;
+}
+a:link{
+  text-decoration: none;
+}
